@@ -7,3 +7,4 @@ usethis::use_git()
 
 # inicializace github repository
 usethis::use_github()
+
