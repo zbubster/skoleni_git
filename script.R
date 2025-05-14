@@ -12,3 +12,9 @@ usethis::create_github_token() #vygeneruje token
 gitcreds::gitcreds_set() #nastaveni credentials, bude to chtit PAT token
 
 usethis::use_github() #tohle vytvori to repo na cloudu
+
+usethis::create_from_github(
+  repo_spec = "https://github.com/jezekvi/zkouska.git",
+  destdir = "test/",
+  fork = FALSE
+)
