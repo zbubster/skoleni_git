@@ -18,3 +18,6 @@ usethis::create_from_github(
   destdir = "test/",
   fork = FALSE
 )
+
+usethis::pr_init("dalsi_pokus")
+# fjjfdjffd
