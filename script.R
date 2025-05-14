@@ -21,3 +21,5 @@ usethis::create_from_github(
 
 usethis::pr_init("dalsi_pokus")
 # fjjfdjffd
+usethis::pr_push()
+usethis::pr_finish()
